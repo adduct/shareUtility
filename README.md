@@ -1,5 +1,6 @@
 # shareUtitlity
 qqShareUtility class:share image,url and binary data to qq friends.
+it is now used in QQMail app project.
 
 # Features
 share image, binary data and url to QQ without use sophisticated TencentOpenApi API.
