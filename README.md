@@ -31,3 +31,6 @@ where:
 "demoUrl" is nonnull NSString object;
 "demoPrviewUrl" is nonnull  NSString object;
 "demoDescription" is nonnull  NSString object.
+
+#Licence
+shareUtility is available under the MIT license. See the LICENSE file for detail.
