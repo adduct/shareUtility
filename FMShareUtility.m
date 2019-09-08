@@ -1,18 +1,18 @@
 //
-//  qqShareUtility.m
+//  FMShareUtility.m
 //
 //
 //  Created by hawkhe on 17/1/8.
 //  Copyright © 2017 All rights reserved.
 //
 
-#import "qqShareUtility.h"
+#import "FMShareUtility.h"
 //your app id register on QQConnect platform
 //you should replace the following id:"100100100" with your own one
 #define k_appId @"100100100"
 
 
-@implementation qqShareUtility
+@implementation FMShareUtility
 
 //width,height and size limit of image thumbnail
 static CGFloat widthLimit = 20.0;
@@ -29,10 +29,10 @@ static float sizeLimit = 1024.0*1024.0;
     return self;
 }
 
-+ (FMShareToQQUtility *)shareInstance
++ (FMShareUtility *)shareInstance
 {
     static dispatch_once_t pred;
-    static FMShareToQQUtility* _instance = nil;
+    static FMShareUtility* _instance = nil;
     
     dispatch_once(&pred, ^{
         _instance = [[FMShareToQQUtility alloc] init];
