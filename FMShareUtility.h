@@ -1,5 +1,5 @@
 //
-//  qqShareUtility.h
+//  FMShareUtility.h
 //
 //
 //  Created by hawkhe on 17/1/8.
@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface qqShareUtility : NSObject<TencentSessionDelegate>
+@interface FMShareUtility : NSObject<TencentSessionDelegate>
 @property (retain, nonatomic) TencentOAuth *tencentOAuth;
 
-+ (FMShareToQQUtility *)shareInstance;
++ (FMShareUtility *)shareInstance;
 /**
  * share url to QQ friend
  \param url URL
