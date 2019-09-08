@@ -35,7 +35,7 @@ static float sizeLimit = 1024.0*1024.0;
     static FMShareUtility* _instance = nil;
     
     dispatch_once(&pred, ^{
-        _instance = [[FMShareToQQUtility alloc] init];
+        _instance = [[FMShareUtility alloc] init];
     });
     
     return _instance;
